@@ -921,5 +921,31 @@ align-items: center;
 }
 }
 
-@media (max-width: 480px){}
+@media (max-width: 480px){
+nav .menu {
+  justify-content: flex-start;  
+}
 
+.portada {
+flex-direction: column;
+}
+
+.portada .derecha .formulario {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.social .iconossociales {
+  gap: 2px;
+}
+
+.sublista .texto {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.encabezadoprecios h2 {
+    font-size: 2.0rem;
+}
+}
