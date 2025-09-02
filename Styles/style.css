@@ -87,7 +87,6 @@ nav .menu a {
 .portada .izquierda .boton a {
   border: solid 2px white;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   font-size: 1rem;
   text-decoration: none;
   color: white;
@@ -784,4 +783,143 @@ nav .menu a {
 .pie p {
   font-size: 14px;
 }
+
+@media (max-width: 1279px) {   
+.portada .izquierda .texto h1 {
+    font-size: 25px;
+}
+
+.portada .izquierda .texto p{
+    font-size: 15px;
+}
+.portada .izquierda .boton {
+    margin-top: 1px;
+}
+.contenidopestana p {
+  font-size: 14px;
+}
+
+.sublista .imagenprincipal img {
+  width: 350px;
+}
+
+.imagenestandar .imagen img {
+  width: 400px;
+}
+}
+
+
+@media (max-width: 920px){
+.social .iconossociales {
+  gap: 0px;
+}
+
+.pestana {
+  padding: 38px;
+}
+
+
+.contenidopestana h2 {
+  font-size: 20px;
+}
+
+.contenidopestana p {
+  font-size: 10px;
+}
+
+.imagenpestana img {
+  width: 300px;
+}
+
+.sublista .imagenprincipal img {
+  width: 300px;
+}
+
+.sublista .texto {
+  width: 320px;
+}
+
+.imagenestandar .imagen img {
+  width: 300px;
+}
+}
+
+
+@media (max-width: 768px){
+nav .menu {
+  gap: 30px;
+  justify-content: center;
+}
+
+nav #Logo img {
+    width: 130px;
+}
+
+.portada .derecha .formulario {
+  width: 200px;
+}
+
+.imagenpestana img {
+  width: 0px;
+}
+nav .menu {
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex
+}
+
+.sublista .imagenprincipal img {
+  width: 0px;
+}
+
+.portada {
+  padding: 4% 4%;
+}
+
+.social{
+  flex-direction: column;
+}
+
+.social .iconossociales {
+  gap: 10px;
+}
+.imagenestandar {
+  flex-direction: column-reverse;
+}
+
+.imagenestandar .texto {
+  width: auto;
+}
+
+.encabezadoventajas h2 {
+  font-size: 1.5rem;
+}
+
+.encabezadoventajas p {
+  width: 220px;
+}
+
+.listaventajas {
+  flex-direction: column;
+}
+
+.tarjetasprecios {
+flex-direction: column;
+align-items: center;
+}
+
+.encabezadoprecios p {
+  width: 200px;
+}
+
+.testimonios h2 {
+  font-size: 2rem;
+}
+
+.testimonios p {
+  font-size: 15px;
+}
+}
+
+@media (max-width: 480px){}
 
